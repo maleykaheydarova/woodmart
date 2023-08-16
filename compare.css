@@ -1,0 +1,37 @@
+@import url('header.css');
+@import url('footer.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hind";
+    list-style: none;
+   
+
+}
+
+
+
+.page1 .left-side aside ul .left-dropdown {
+    background-color: #fff;
+    border: 1px solid rgb(219, 216, 216);
+    display: none;
+
+}
+.bg-image{
+background-image: url(./photos/page-title-shop.jpg);
+width: 100%;
+}
+.bg-image .title-box h1{
+font-size: 85px;
+}
+
+
+.activeLeftDropdown {
+    display: block !important;
+}
+.compare-info .text-center i{
+    color: #f1f1f1 !important;
+    font-size: 170px;
+} 

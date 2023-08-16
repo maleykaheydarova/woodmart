@@ -1,0 +1,159 @@
+@media(max-width: 1024px) {
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hind"; 
+  list-style: none;
+  width: 100%;
+  
+}
+html,body{
+    width: 100%;
+    overflow-x: hidden;
+}
+    .header2 a span {
+        display: none;
+    }
+
+    .extra-info {
+        display: flex;
+        justify-content: end;
+    }
+
+    .socialmediabtns {
+        display: none;
+    }
+
+    .navigation .menu-li a {
+        width: 160px;
+    }
+
+    .addinfo .text a {
+        display: none;
+    }
+
+    .addinfo i {
+        width: 40px;
+    }
+
+    .input div a span {
+        display: none;
+
+    }
+
+    .input div a {
+        height: 18px;
+    }
+
+    .divheading{
+        font-size: 14px;
+    }
+    .page2 .content-products{
+        display: flex ;
+        justify-content: center !important;
+    }
+
+    .page2 .content-products .content-product-item{
+        border-right: 1px solid #e4e3e3 !important;
+    }
+    .page4 .content-products .content-product-item{
+        border-right: 1px solid #e4e3e3 !important;
+    }
+    .page4 .content-products{
+        display: flex ;
+        justify-content: center !important;
+    }
+    .page5 .socialmediapart1 span{
+        display: none;
+    }
+    .page5 .box-items{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .page5 .box-items .box-item{
+        width: 140px;
+    }
+
+    .page6 .box{
+        border: none;
+    }
+    .page6 .box .swiper{
+        display: none;
+        border: none;
+    }
+    .page6 .divimgside{
+        display: flex;
+        justify-content: center;
+    }
+    .page6 .divimgside img{
+        width: 600px;
+       
+    }
+    .page6 .banner-photo-details1 p, span{
+        font-size: 14px;
+    }
+    footer .divforinput{
+        display: flex;
+        padding: 5px 15px;
+    }
+    footer .divforbuttons a img{
+        width: 120px;
+    }
+    footer .divforinput input{
+        padding: 1px 10px;
+    }
+    footer .divforinput button{
+        padding: 1px 5px;
+    }
+    footer .col-4:last-child h3{
+        display: none;
+    }
+
+    
+}
+
+@media(max-width: 975px){
+    .page1{
+        display: flex;
+        justify-content: center;
+    }
+    .page1 .col-8{
+        width: 1000px;
+    }
+   
+    .page5 .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .page5 .col-4 {
+        width: 500px !important;
+       
+    }
+    .page2 .content{
+        display: flex ;
+        justify-content: center !important;
+    }
+    .page3 .content .row{
+        display: flex;
+      justify-content: space-between;
+    }
+    .page4 .content{
+        display: flex ;
+        justify-content: center !important;
+    }
+}
+
+
+@media(max-width: 768){
+    .navigation .menu-li a {
+        width: 250px;
+    }
+    .right-side{
+        width: 100vh;
+    }
+    .addinfo i {
+        width: 40px;
+    }
+}

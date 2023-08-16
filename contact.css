@@ -1,0 +1,118 @@
+@import url('header.css');
+@import url('footer.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hind";
+    /* overflow-x: hidden; */
+    list-style: none;
+  }
+
+  nav{
+    padding: auto;
+    
+  }
+
+  .logo-wrapper img{
+    width: 210px;
+  }
+  nav .additionaldetails a{
+    text-decoration: none;
+    color: #4B4A4A;
+    margin: 0.6rem;
+  }
+  nav .additionaldetails div:first-child a{
+    font-size: 14px;
+    font-weight: 600;
+  }
+  nav .additionaldetails div a i{
+    font-size: 18px;
+    
+  }
+  nav .additionaldetails a .badge{
+    font-size: 9px ;
+    
+  }
+  nav .additionaldetails a .price{
+    font-size: 14px ;
+    font-weight: 600;
+    
+  }
+  nav .additionaldetails a:hover{
+    color: #808080;
+  }
+  .navigation .homedropdownmenu{
+    left:-20px;
+  }
+  .navigation .shopdropdownmenu{
+    left:-60px;
+  }
+  .navigation .elementsdropdownmenu{
+    left: 5px;
+  }
+.divform .row{
+  width: 100%;
+}
+  .divform .row .col-6{
+    border-right: 1px solid #d8d1d1;
+}
+
+.divform .row .col-6 h3{
+    font-size: 23px !important;
+    font-weight: 600;
+}
+.divform .question a{
+    text-decoration: none;
+    color: #444444 !important;
+}
+.divform ul li:first-child{
+    border-top: 1px solid #d8d1d1;
+}
+.divform ul li {
+   padding: 10px;
+    
+    border-bottom: 1px solid #d8d1d1 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.divform ul li a{
+    color: #333333;
+    font-weight: 600;
+    font-size: 18px;
+}
+.divform ul li a:hover{
+    color: #5e5d5d !important;
+    
+}
+
+.col-6:last-child input{
+    
+    width: 90%;
+    border: 1px solid #d8d1d1;
+    border-radius: 0;
+    padding: 5px;
+}
+
+.col-6:last-child .inputinfo{
+    margin-top: 15px;
+}
+.col-6:last-child textarea{
+    width: 90%;
+    border: 1px solid #d8d1d1;
+    border-radius: 0%;
+}
+.col-6:last-child .btn{
+    border-radius: 0 !important;
+    padding: 10px 13px;
+    background-color: rgb(234, 226, 226);
+    font-size: 14px;
+    color: #141414;
+    
+}
+
+
+
+
